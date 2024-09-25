@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\usepackage[english]{babel}
+
+\begin{document}
+\section{Introduction}
+SPYVALK
+
+\begin{theorem}
+Supongase que $f$ es continua en $a$, y $f(a)>0$. Entonces existe un número $\delta>0$ tal que $f(a)>0$ para todo $x$ que satisface $|x-a|<\delta$. Análogicamente, si $f(a)<0$, entonces existe un número $\delta>0$ tal que $f(x)<0$ para todo $x$ que satisface $|x-a|<\delta$.
+\end{theorem}
+\begin{proof}
+  Considere el caso $f(a)>0$ puesto que $f$ que es continua en $a$ si $\in>0$ existe un $\delta>0$ tal que ,para todo $x$.\\
+  \[si\hspace{0.2cm}|x-a|<\delta,\hspace{0.2cm} entonces \hspace{0.2cm}|f(x)-f(a)|<\in. \]\\
+  Puesto que $f(a)>0$ podemos tomar a $f(a)$ como el $\in$. Así pues, existe $\delta>0$ tal que para todo $x$.\\
+  \[si\hspace{0.2cm}|x-a|<\delta,\hspace{0.2cm} entonces \hspace{0.2cm}|f(x)-f(a)|<f(a). \]\\
+\end{proof}
+
+\end{document}
